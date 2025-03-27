@@ -1,6 +1,10 @@
 # mcq_test_app
 Mobile quiz app that generates quiz questions dynamically using GROQ.com’s LLM APIs.
 
+## Dependencies
+1. http → Making API requests to fetch quiz questions from GROQ.com LLM APIs.
+2. shared_preferences → Storing and retrieving past quiz scores.
+
 ## Project structure
 1. lib/ (Root folder for Flutter code)
     1. main.dart (Entry point of the app)
